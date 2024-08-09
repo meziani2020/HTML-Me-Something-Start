@@ -1,8 +1,422 @@
 <!DOCTYPE html>
 <html>
    <head>
+      <link    rel="stylesheet"  href="styles.css" >
+      <link    rel="stylesheet"  href="css/bootStrap.css" >
+      <link    rel="stylesheet"  href="css/bootStrupIcones.css" >
+      <link    rel="stylesheet"  href="css/template01.css" >
+      <link    rel="stylesheet"  href="css/Jquery-UI.css" >
+      
+      
    </head>
    <body>
-      <!-- Write your HTML in this file! -->
-   </body>
-</html>
+
+
+<main>
+
+    <nav class="navbar navbar-expand-lg headroom headroom--not-bottom headroom--pinned headroom--top">
+        <div class="container">
+        
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <a class="navbar-brand" href="#">
+                <strong><span> I learn</span>ed,  DEMO</strong>
+            </a>
+       
+            <div class="d-lg-none">
+                <a href="#sign-in" class="bi-person custom-icon me-3"></a>
+                <a href="#product-detail" class="bi-bag custom-icon me-3"></a>			
+                <a href="#mediathec" class="bi bi-caret-right-square custom-icon"></a>
+            </div>
+
+            <div class="navbar-collapse collapse" id="navbarNav" style="" >
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">about</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Consepts">Consepts</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#FAQ">Q&R</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">contact</a>
+                    </li>
+                </ul>
+
+                <div class="d-none d-lg-block">
+                    <a href="#sign-in" class="bi-person custom-icon me-3"></a>
+                    <a href="#products" class="bi-bag custom-icon me-3 "></a>
+                    <a href="#mediathec" class="bi bi-caret-right-square  custom-icon"></a>
+                </div>
+            </div>
+        
+        </div>
+    </nav>
+
+    <section class="section-padding"><!--view divert type of components-->
+
+        <div class="container">
+            <h5 id="mainHeading">
+                               List of learned  concepts
+            </h5>
+            <div class="row">
+                <div class="col-lg-12  col-12 row">
+                    <!--concept description-->
+                   <div   class="col-lg-3  col-3">
+                       <article>
+                           <header>
+                             <h5>Git hub </h5>
+                             <p id="testP " class="funParagraph">Desciption of concept here...</p>
+                           </header>
+                           <p>Git is a popular version control system. It was created by Linus Torvalds in 2005, and has been maintained by Junio Hamano since then.</p>
+                       </article>
+                    </div>
+                    <!--concept Image-->
+                    <div  class="col-lg-3  col-3"> 
+
+                       <article>  
+                           <p>Desciption image</p> 
+                           <img src="images/discrib.github.png" alt="Concept image here">
+                       </article>
+                   </div>
+                   <!--concept video-->
+                   <div  class="col-lg-3  col-3">
+                       <P>desciption video</P> 
+                       <img src="images/GitHubVidoImage.JPG" alt="Concept Video here">
+                   </div>
+                   <!--concept links-->
+                   <div  class="col-lg-3  col-3">
+                       <p>Resources Links</p> 
+                   </div>  
+               </div>       
+            </div>
+            <div class="row">
+                <div class="col-lg-12  col-12 row">
+                    <!--concept description-->
+                   <div   class="col-lg-3  col-3">
+                       <article>
+                           <header>
+                             <h5>NPM </h5>
+                             <p>npm is the world's largest Software Registry. Open-source developers use npm to share software.</p>
+                           </header>
+                           <p>The name npm (Node Package Manager) stems from when npm first was created as a package manager for Node.js.</p>
+                       </article>
+                    </div>
+                    <!--concept Image-->
+                    <div  class="col-lg-3  col-3"> 
+
+                       <article>  
+                           <p>Desciption image</p> 
+                           <img src="images/03275-nodejs-npm-01-1.png" alt="Concept image here">
+                       </article>
+                   </div>
+                   <!--concept video-->
+                   <div  class="col-lg-3  col-3">
+                       <P>desciption video</P> 
+                       <img src="images/nodjs.pack.mngr.video.JPG" alt="npm Video here">
+                   </div>
+                   <!--concept links-->
+                   <div  class="col-lg-3  col-3">
+                       <p>Resources Links</p> 
+                   </div>  
+               </div>       
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding"><!--view divert type of components-->
+
+        <div class="container">
+            <div class="row">
+            <!-- Tabs -->
+
+                <div id="tabs" class="ui-tabs ui-widget ui-widget-content ui-corner-all">
+                    <ul class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all" role="tablist">
+                        <li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tabs-1" aria-labelledby="ui-id-1" aria-selected="false" aria-expanded="false">
+                             <a href="#tabs-1" class="bi bi-box-arrow-in-down  ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-1">  Inputs</a>
+                        </li>
+                        <li class="ui-state-default ui-corner-top ui-tabs-active ui-state-active" role="tab" tabindex="0" aria-controls="tabs-2" aria-labelledby="ui-id-2" aria-selected="true" aria-expanded="true">
+                             <a href="#tabs-2" class="bi bi-box-arrow-up  ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-2">  Concepts</a>
+                        </li>
+                        <li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tabs-3" aria-labelledby="ui-id-3" aria-selected="false" aria-expanded="false">
+                            <a href="#tabs-3" class="bi bi-gear  ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-3"> play Settings	</a>
+                        </li>
+                        <li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tabs-4" aria-labelledby="ui-id-4" aria-selected="false" aria-expanded="false">
+                            <a href="#tabs-4" class="bi bi-gear  ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-4"> Icons View	</a>
+                        </li>
+                    </ul>
+
+
+                    <div id="tabs-1" aria-labelledby="ui-id-1" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-hidden="true" style="display: none;">
+                        <form role="form" method="post">
+                            <div class="row">
+                                <div class="col-lg-5 col-11 mx-auto">
+                                    <div class="col-lg-12 col-11 mx-auto"><!--inputs json--->
+                                        <h5>IN(JSON) </h5>
+                                    </div>
+                                    <div class="col-lg-12 col-11 mx-auto"><!--inputs json--->
+                                        <textarea cols="50" rows="8" class="Wfull" id="inputJSON">
+ {
+"ComceptName": "NPM",
+ "ComceptID": "P215HJG4",
+"description": "NodeJs package Manager is a program in Nodjs that mange js packages ",
+ "videoLink": "www/youtube.com/...",
+ "pictLink": "www/youtube.com/...",
+ "pdfLink": "www/youtube.com/...",
+ "preRequired": [  "Terminal",  "command line",  "pakage registry"]
+ }
+                                        </textarea>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-11 mx-auto">
+                                    <button type="button" class="btn custom-btn form-control mt-4 mb-3" onclick="#">
+                                         &lt;== save ==&gt;
+                                    </button>
+                                </div>
+                                <div class="col-lg-5 col-11 mx-auto"> 
+                                    <div class="col-lg-12 col-11 mx-auto"><!--inputs json--->
+                                        <h5>Result </h5>
+                                    </div>
+                                    <div class="col-lg-12 col-11 mx-auto"><!--inputs json--->
+                                         <textarea cols="50" rows="8" class="" disabled="" id="outputsJSON"> server responce here</textarea>
+                                    </div>	
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div id="tabs-2" aria-labelledby="ui-id-2" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" style="display: block;" aria-hidden="false">
+                        <div id="accordion" class="ui-accordion ui-widget ui-helper-reset" role="tablist">
+                        
+                        
+                            <h3 class="ui-accordion-header ui-state-default ui-accordion-icons ui-accordion-header-active ui-state-active ui-corner-top" role="tab" id="ui-id-5" aria-controls="ui-id-6" aria-selected="true" aria-expanded="true" tabindex="0">
+                                <span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-s"></span>
+                                Git hub
+                            </h3>
+                            <div class="row ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" style="display: flex; height: 122px; overflow: auto;" id="ui-id-6" aria-labelledby="ui-id-5" role="tabpanel" aria-hidden="false">
+                                <div class="col-lg-12  col-12 row">
+                                    <!--concept description-->
+                                   <div   class="col-lg-3  col-3">
+                                       <article>
+                                           <header>
+                                             <h5>Comcept C1</h5>
+                                             <p>Desciption of concept here...</p>
+                                           </header>
+                                       </article>
+                                    </div>
+                                    <!--concept Image-->
+                                    <div  class="col-lg-3  col-3"> 
+
+                                       <article>  
+                                           <p>Desciption image</p> 
+                                           <img src="images/conceptImage-bolts.jpg" alt="Concept image here">
+                                       </article>
+                                   </div>
+                                   <!--concept video-->
+                                   <div  class="col-lg-3  col-3">
+                                       <P>desciption video</P> 
+                                       <img src="images/GitHubVidoImage.JPG" alt="Concept Video here">
+                                   </div>
+                                   <!--concept links-->
+                                   <div  class="col-lg-3  col-3">
+                                       <p>Resources Links</p> 
+                                   </div>  
+                               </div>
+                            </div>
+
+
+
+                            <h3 class="ui-accordion-header ui-state-default ui-accordion-icons ui-accordion-header-active ui-state-active ui-corner-top" role="tab" id="ui-id-5" aria-controls="ui-id-6" aria-selected="true" aria-expanded="true" tabindex="0">
+                                <span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-s"></span>
+                                Java Script
+                            </h3>                                   
+                            <div class="row ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" style="display: flex; height: 122px; overflow: auto;" id="ui-id-6" aria-labelledby="ui-id-5" role="tabpanel" aria-hidden="false">
+                                <div class="col-lg-12  col-12">
+                                    <div id="consept002-" class="col-lg-12  col-12">
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- start accorddion-->
+                            <h3 class="ui-accordion-header ui-state-default ui-accordion-icons ui-accordion-header-active ui-state-active ui-corner-top" role="tab" id="ui-id-5" aria-controls="ui-id-6" aria-selected="true" aria-expanded="true" tabindex="0">
+                                <span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-s"></span>
+                                Nodejs
+                            </h3>                                   
+                            <div class="row ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" style="display: flex; height: 122px; overflow: auto;" id="ui-id-6" aria-labelledby="ui-id-5" role="tabpanel" aria-hidden="false">
+                                <div class="col-lg-12  col-12 row">
+                                    <!--concept description-->
+                                   <div   class="col-lg-3  col-3">
+                                       <article>
+                                           <header>
+                                             <h5>Comcept C1</h5>
+                                             <p>Desciption of concept here...</p>
+                                           </header>
+                                       </article>
+                                    </div>
+                                    <!--concept Image-->
+                                    <div  class="col-lg-3  col-3"> 
+
+                                       <article>  
+                                           <p>Desciption image</p> 
+                                           <img src="images/conceptImage-bolts.jpg" alt="Concept image here">
+                                       </article>
+                                   </div>
+                                   <!--concept video-->
+                                   <div  class="col-lg-3  col-3">
+                                       <P>desciption video</P> 
+                                       <img src="images/GitHubVidoImage.JPG" alt="Concept Video here">
+                                   </div>
+                                   <!--concept links-->
+                                   <div  class="col-lg-3  col-3">
+                                       <p>Resources Links</p> 
+                                   </div>  
+                               </div>
+                            </div>
+                            <!-- end accorddion-->
+
+
+
+
+                            <!-- start accorddion-->
+                            <h3 class="ui-accordion-header ui-state-default ui-accordion-icons ui-accordion-header-active ui-state-active ui-corner-top" role="tab" id="ui-id-5" aria-controls="ui-id-6" aria-selected="true" aria-expanded="true" tabindex="0">
+                                <span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-s"></span>
+                                concept 6
+                            </h3>                                   
+                            <div class="row ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" style="display: flex; height: 122px; overflow: auto;" id="ui-id-6" aria-labelledby="ui-id-5" role="tabpanel" aria-hidden="false">
+                                <div class="col-lg-12  col-12 row">
+                                     <!--concept description-->
+                                    <div   class="col-lg-3  col-3">
+                                        <article>
+                                            <header>
+                                              <h5>Comcept C1</h5>
+                                              <p>Desciption of concept here...</p>
+                                            </header>
+                                        </article>
+                                     </div>
+                                     <!--concept Image-->
+                                     <div  class="col-lg-3  col-3"> 
+
+                                        <article>  
+                                            <p>Desciption image</p> 
+                                            <img src="images/conceptImage-bolts.jpg" alt="Concept image here">
+                                        </article>
+                                    </div>
+                                    <!--concept video-->
+                                    <div  class="col-lg-3  col-3">
+                                        <P>desciption video</P> 
+                                        <img src="images/GitHubVidoImage.JPG" alt="Concept Video here">
+                                    </div>
+                                    <!--concept links-->
+                                    <div  class="col-lg-3  col-3">
+                                        <p>Resources Links</p> 
+                                    </div>  
+                                </div>
+                            </div>
+                            <!-- end accorddion-->
+
+
+                        </div>	
+                    </div>
+
+
+                    <div id="tabs-3" aria-labelledby="ui-id-3" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" style="display: none;" aria-hidden="true">
+                        <div class="row">
+                            <div class="col-lg-6 col-12">
+                                settings of the Concepts  iterations mecanizem
+                                speed
+                                list to iterate ets.
+
+                            </div>
+                            <div class="col-lg-6 col-12">
+
+                            </div>
+                        </div>		
+                    </div>
+
+                    <div id="tabs-4" aria-labelledby="ui-id-4" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" style="display: none;" aria-hidden="true">
+                           here the set of concepts in the form of icons
+                    </div>
+</div>
+
+
+    
+            </div>
+    
+        </div>		
+    
+                
+    
+    </section>
+</main>
+
+
+
+
+
+
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-3 col-12 me-auto mb-4">
+                <h4 class="text-white mb-3"><a href="#home">Mohamed</a>LAB</h4>
+                <p class="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">Copyright ©&copy; 2014 <strong>Med Lab</strong></p>
+                <br>
+                <p class="copyright-text">Inspired  by <a href="#med" target="_blank">Isem</a></p>
+                <br>
+                <p class="copyright-text">Designed by <a href="#med" target="_blank">Isem</a></p>
+            </div>
+
+            <div class="col-lg-4 col-12">
+                <h5 class="text-white mb-3">Sections</h5>
+
+                <ul class="footer-menu d-flex0 flex-wrap">
+                    <li class="footer-menu-item"><a href="#" class="footer-menu-link">Unite 01</a></li>
+
+                    <li class="footer-menu-item"><a href="#" class="footer-menu-link">Unite 01</a></li>
+
+                    <li class="footer-menu-item"><a href="#" class="footer-menu-link">Unite 01</a></li>
+
+                    <li class="footer-menu-item"><a href="#" class="footer-menu-link">Questions?</a></li>
+                    <li class="footer-menu-item"><a href="#" class="footer-menu-link">Responses!</a></li>
+
+                    <li class="footer-menu-item"><a href="#" class="footer-menu-link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-12">
+                <h5 class="text-white mb-3">Social Media</h5>
+
+                <ul class="social-icon">
+
+                    <li><a href="#" class="social-icon-link bi-youtube"></a></li>
+
+                    <li><a href="#" class="social-icon-link bi-whatsapp"></a></li>
+
+                    <li><a href="#" class="social-icon-link bi-instagram"></a></li>
+
+                    <li><a href="#" class="social-icon-link bi-skype"></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/initialCode.js"></script>
